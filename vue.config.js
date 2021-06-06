@@ -5,6 +5,10 @@ module.exports = {
       "/api/": {
         target: "http://localhost:8080",
         changeOrigin: true
+      },
+      "/api/Bd/": {
+        target: "http://vop.baidu.com",
+        changeOrigin: true
       }
     }
   },

@@ -23,9 +23,27 @@ import {
   TableColumn,
   popover,
   tag,
-  Dialog
+  Dialog,
+  Carousel,
+  CarouselItem,
+  Row,
+  Col,
+  RadioButton,
+  RadioGroup,
+  Card,
+  Pagination,
+  Progress,
+  Divider,
+  Switch
 } from "element-ui";
 
+Vue.use(Divider);
+Vue.use(Switch);
+Vue.use(Progress);
+Vue.use(Pagination)
+Vue.use(Card);
+Vue.use(RadioGroup);
+Vue.use(RadioButton);
 Vue.use(Dialog);
 Vue.use(popover);
 Vue.use(Table);
@@ -56,3 +74,7 @@ Vue.use(Form);
 Vue.use(FormItem);
 Vue.use(Radio);
 Vue.prototype.$message = Message;
+Vue.use(Carousel);
+Vue.use(CarouselItem);
+Vue.use(Row);
+Vue.use(Col);

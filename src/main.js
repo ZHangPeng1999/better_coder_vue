@@ -5,6 +5,7 @@ import store from "./store";
 import "./plugins/element.js";
 import "@/assets/css/globel.css";
 import axios from "@/axios/MyAxios.js";
+import "./plugins/mavonEditor.js";
 Vue.config.productionTip = false;
 Vue.prototype.$http = axios;
 new Vue({

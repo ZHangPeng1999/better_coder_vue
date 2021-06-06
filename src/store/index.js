@@ -40,7 +40,7 @@ const myActions = {
     }, 2000);
   },
   async [types.LOGIN]({ commit }, data) {
-    let resp = await axios.post("login", data);
+    let resp = await axios.post("sign_in", data);
     if (resp != null) {
       sessionStorage.setItem("authorization", resp.headers["authorization"]);
       sessionStorage.setItem("role", resp.data.role);
